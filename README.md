@@ -1,2 +1,3 @@
-# cloud-object-storage-iaas
-cloud-object-storage-iaas
+# Cloud Object Storage
+
+Documentation for IBM Cloud Object Storage.  
