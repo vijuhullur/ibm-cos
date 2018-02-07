@@ -13,32 +13,14 @@ lastupdated: "2017-11-05"
 {:tip: .tip}
 
 
-# About {{site.data.keyword.cos_full_notm}}
+# Object Storage in the IBM Cloud
 
+Object storage is storage for the cloud.  Essentially a key-value store, files (or any binary data) are given an identifying key (or name) and stored as an 'object' in a uniquely named 'bucket' or 'container'. This allows for highly scalable storage where the only information you need to retrieve your data is the name of the object and the bucket where it's stored.
+In addition to {{site.data.keyword.cos_full_notm}}, {{site.data.keyword.cloud_notm}} currently provides several object storage offerings for different user needs, all of which are accessible through web-based portals and REST APIs.
 
-In addition to {{site.data.keyword.cos_full_notm}}, {{site.data.keyword.cloud_notm}} currently provides additional object storage offerings for different user needs, all of which are accessible through web-based portals and REST APIs.
-
-| Offering                                   | Interface | Defining advantage                             |
-|--------------------------------------------|-----------|------------------------------------------------|
-| {{site.data.keyword.cos_full_notm}}        | COS API   | For cloud-native development.                  |
-| IBM Cloud Object Storage (Infrastructure)  | COS API   | For regulatory compliance.                     |
-| OpenStack Swift (Infrastructure)           | Swift API | For workloads requiring specific regions.      |
-| OpenStack Swift (Cloud Foundry)            | Swift API | Native integration with Cloud Foundry services |
-
-## IBM Cloud Object Storage (Infrastructure)
-
-Data stored with Cloud Object Storage (Infrastructure) is located in one of 20 global data centers. Developers manage access at the account level. This offering is managed through the {{site.data.keyword.cloud_notm}} infrastructure Control portal.
-
-For more information on this object storage service, [view the documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm-public-cos.github.io/crs-docs/index.html){: new_window}.
-
-## OpenStack Swift Object Storage (Infrastructure)
-
-Data stored with OpenStack Swift (Infrastructure) is located in one of 20 global data centers. Developers use the community Swift API to interact with their storage accounts. This offering is managed through the {{site.data.keyword.cloud_notm}} infrastructure Control portal and does not provide encryption at-rest.
-
-For more information on this object storage service, [view the documentation](/docs/infrastructure/objectstorage-swift/index.html).
-
-## Swift Object Storage for Cloud Foundry (PaaS)
-
-Data stored with OpenStack Swift (Cloud Foundry) is located in either Dallas or London data centers, and storage accounts are available for binding to {{site.data.keyword.cloud_notm}} services. Based on the OpenStack Swift platform, developers use the community Swift API to interact with their storage accounts. This offering is managed through the {{site.data.keyword.cloud_notm}} Platform console and does not provide encryption at-rest.
-
-For more information on this object storage service, [view the documentation](/docs/services/ObjectStorage/index.html).
+| Offering                                   | Interface | Defining advantage                             | Docs |
+|--------------------------------------------|-----------|------------------------------------------------|------|
+| {{site.data.keyword.cos_full_notm}}        | COS API   | Ideal for cloud-native development and provides strong integration with IBM Cloud Services, including Data Science Experience. Most new projects should use this to make use of IBM Cloud IAM, Key Protect, and other new features as they become available. | [Link](/docs/services/cloud-object-storage/index.html) |
+| IBM Cloud Object Storage (Infrastructure)  | COS API   | Nearly identical to the above version, but provides certain regulatory compliance only available when purchasing through IBM Cloud Infrastructure (SoftLayer).  Does not support IBM Cloud IAM or Key Protect. | [Link](/docs/infrastructure/ibm-cos/index.html) |
+| OpenStack Swift (Infrastructure)           | Swift API | In addition to using the OpenStack Swift API, this version is available outside of the standard set of IBM Cloud regions. | [Link](/docs/infrastructure/objectstorage-swift/index.html) |
+| OpenStack Swift (Cloud Foundry)            | Swift API | This is the original OpenStack Swift object storage that was provided through Bluemix as a Cloud Foundry service. | [Link](/docs/services/ObjectStorage/index.html) |
