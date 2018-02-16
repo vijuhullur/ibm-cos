@@ -12,7 +12,6 @@ lastupdated: "2018-02-15"
 {:screen: .screen}
 {:tip: .tip}
 
-
 # About COS (infrastructure)
 
 Information stored with {{site.data.keyword.cos_full}} is encrypted and dispersed across multiple geographic locations, and accessed over HTTP using a REST API. This service makes use of the distributed storage technologies provided by the {{site.data.keyword.cos_full_notm}} System (formerly Cleversafe).
