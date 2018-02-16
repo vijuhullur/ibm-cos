@@ -1,5 +1,5 @@
 {: .toc subcollection="ibm-cos" audience="services" href="/docs/services/ibm-cos/about-cos.html"}
-Cloud Object Storage - Infrastructure
+Cloud Object Storage Infrastructure
 
 {: .navgroup id="learn"}
 about-cos.md
@@ -10,14 +10,12 @@ using-apis.md
 tutorial.md
 {: .navgroup-end}
 
-
 {: .navgroup id="howto"}
 endpoints.md
 manage-access.md
 storage-classes.md
 desktop-clients.md
 {: .navgroup-end}
-
 
 {: .navgroup id="reference"}
 about-api.md
@@ -31,7 +29,6 @@ python.md
 java.md
 node.md
 {: .navgroup-end}
-
 
 {: .navgroup id="help"}
 security.md
