@@ -1,4 +1,4 @@
-{: .toc subcollection="ibm-cos" audience="services" href="/docs/services/ibm-cos/about-cos.html"}
+{: .toc subcollection="cloud-object-storage" audience="services" href="/docs/services/ibm-cos/about-cos.html"}
 Cloud Object Storage Infrastructure
 
 {: .navgroup id="learn"}
