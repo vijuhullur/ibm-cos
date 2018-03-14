@@ -1,40 +1,9 @@
 {: .toc subcollection="ibm-cos" audience="services" href="/docs/services/ibm-cos/about-cos.html"}
-Cloud Object Storage Infrastructure
+IBM Cloud Object Storage
 
 {: .navgroup id="learn"}
-about-cos.md
-quickstart.md
-ordering.md
-storing-retrieving.md
-using-apis.md
-tutorial.md
-{: .navgroup-end}
-
-{: .navgroup id="howto"}
-endpoints.md
-manage-access.md
-storage-classes.md
-desktop-clients.md
-{: .navgroup-end}
-
-{: .navgroup id="reference"}
-about-api.md
-common-headers.md
-common-errors.md
-buckets.md
-objects.md
-softlayer.md
-cli.md
-python.md
-java.md
-node.md
-{: .navgroup-end}
-
-{: .navgroup id="help"}
-security.md
-guidance.md
-faq.md
-support.md
-billing.md
-[Pricing](https://www.ibm.com/cloud-computing/products/storage/object-storage/public-service/#othertab2)
+[IBM COS](/docs/services/cloud-object-storage/getting-started.html)
+[IBM COS infrastructure](/docs/infrastructure/cloud-object-storage-infrastructure/about-cos.html)
+[OpenStack Swift](/docs/services/ObjectStorage/index.html)
+[OpenStack Swift infrastructure](/docs/infrastructure/objectstorage-swift/index.html)
 {: .navgroup-end}
