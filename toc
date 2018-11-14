@@ -1,6 +1,6 @@
 {: .toc subcollection="ibm-cos" audience="services" href="/docs/services/ibm-cos/about-cos.html"}
 IBM Cloud Object Storage
-
+ 
 {: .navgroup id="learn"}
 [IBM COS](/docs/services/cloud-object-storage/getting-started.html)
 [IBM COS infrastructure](/docs/infrastructure/cloud-object-storage-infrastructure/about-cos.html)
